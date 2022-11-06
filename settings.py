@@ -1,0 +1,99 @@
+plt.rcParams.update({
+    # see plt.rcParams.keys()
+
+    # general font 
+    'font.family': ['monospace'],
+    'font.size': 20.0,
+
+    # style
+    'axes.facecolor':'3c3e3e', 
+    "axes.grid": False,
+    'axes.spines.top': False,
+    'axes.spines.right': False,
+    'axes.edgecolor': 'white',
+    'axes.linewidth': 2,
+    'figure.facecolor':'3c3e3e',
+    'ytick.left': True,
+    'xtick.bottom': True,
+    "text.color":'white',
+    'xtick.color':'white',
+    'ytick.color':'white',
+    "patch.edgecolor": 'white',
+    "patch.force_edgecolor": False,
+    
+    'xtick.major.width': 2,
+    'xtick.minor.width': 2,
+    'ytick.major.width': 2,
+    'ytick.minor.width': 2,
+
+    # title
+    'axes.titlelocation': 'center',
+    'axes.titlesize': 'x-small', # subtitle
+    'axes.titlepad': 12.0,
+    'figure.titlesize': 'x-large', # suptitle size
+    'figure.titleweight': 'bold',  
+    'axes.labelcolor': 'white',
+
+    # figure size
+    'figure.figsize':(12,8),
+
+    # legend 
+    'legend.fontsize': 12.0,
+    "patch.linewidth": 1,
+    'legend.frameon': True,
+    'legend.framealpha': 1,
+    'legend.facecolor': 'none',
+    'legend.loc': 'lower center',#'upper center',
+    'legend.edgecolor': 'white',
+    'legend.fancybox': True,
+
+    # lines
+    'lines.linewidth': 3,
+
+    # boxplot (not very useful with seaborn)
+    'boxplot.bootstrap': None,
+    'boxplot.boxprops.color': 'white',
+    'boxplot.boxprops.linestyle': '-',
+    'boxplot.boxprops.linewidth': 1.0,
+    'boxplot.capprops.color': 'white',
+    'boxplot.capprops.linestyle': '-',
+    'boxplot.capprops.linewidth': 1.0,
+    'boxplot.flierprops.color': 'white',
+    'boxplot.flierprops.linestyle': 'none',
+    'boxplot.flierprops.linewidth': 1.0,
+    'boxplot.flierprops.marker': 'o',
+    'boxplot.flierprops.markeredgecolor': 'white',
+    'boxplot.flierprops.markeredgewidth': 1.0,
+    'boxplot.flierprops.markerfacecolor': 'none',
+    'boxplot.flierprops.markersize': 6.0,
+    'boxplot.meanline': False,
+    'boxplot.meanprops.color': 'C2',
+    'boxplot.meanprops.linestyle': '--',
+    'boxplot.meanprops.linewidth': 1.0,
+    'boxplot.meanprops.marker': '^',
+    'boxplot.meanprops.markeredgecolor': 'C2',
+    'boxplot.meanprops.markerfacecolor': 'C2',
+    'boxplot.meanprops.markersize': 6.0,
+    'boxplot.medianprops.color': 'white',#'C1',
+    'boxplot.medianprops.linestyle': '-',
+    'boxplot.medianprops.linewidth': 1.0,
+    'boxplot.notch': False,
+    'boxplot.patchartist': True, #False,
+    'boxplot.showbox': True,
+    'boxplot.showcaps': True,
+    'boxplot.showfliers': True,
+    'boxplot.showmeans': False,
+    'boxplot.vertical': True,
+    'boxplot.whiskerprops.color': 'white',
+    'boxplot.whiskerprops.linestyle': '-',
+    'boxplot.whiskerprops.linewidth': 1.0,
+    'boxplot.whiskers': 1.5,
+})
+
+# boxplots, need extra kwargs
+BOXPLOT_PROPS = {
+    'boxprops':{'edgecolor':'white'},
+    'medianprops':{'color':'white'},
+    'whiskerprops':{'color':'white'},
+    'capprops':{'color':'white'}
+}
