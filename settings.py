@@ -1,4 +1,4 @@
-props = {
+{
     # see plt.rcParams.keys()
 
     # general font 
