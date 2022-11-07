@@ -97,3 +97,4 @@ BOXPLOT_PROPS = {
     'whiskerprops':{'color':'white'},
     'capprops':{'color':'white'}
 }
+
