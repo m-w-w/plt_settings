@@ -1,4 +1,4 @@
-plt.rcParams.update({
+props = {
     # see plt.rcParams.keys()
 
     # general font 
@@ -89,12 +89,4 @@ plt.rcParams.update({
     'boxplot.whiskerprops.linewidth': 1.0,
     'boxplot.whiskers': 1.5,
 })
-
-# boxplots, need extra kwargs
-BOXPLOT_PROPS = {
-    'boxprops':{'edgecolor':'white'},
-    'medianprops':{'color':'white'},
-    'whiskerprops':{'color':'white'},
-    'capprops':{'color':'white'}
-}
 
