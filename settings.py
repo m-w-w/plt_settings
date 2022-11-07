@@ -88,5 +88,5 @@ props = {
     'boxplot.whiskerprops.linestyle': '-',
     'boxplot.whiskerprops.linewidth': 1.0,
     'boxplot.whiskers': 1.5,
-})
+}
 
