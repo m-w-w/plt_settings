@@ -30,7 +30,7 @@
     'axes.titlelocation': 'center',
     'axes.titlesize': 'x-small', # subtitle
     'axes.titlepad': 12.0,
-    'figure.titlesize': 'x-large', # suptitle size
+    'figure.titlesize': 'x-large', # subtitle size
     'figure.titleweight': 'bold',  
     'axes.labelcolor': 'white',
 
