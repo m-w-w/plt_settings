@@ -43,7 +43,7 @@
     'legend.frameon': True,
     'legend.framealpha': 1,
     'legend.facecolor': 'none',
-    'legend.loc': 'lower center',#'upper center',
+    'legend.loc': 'best',
     'legend.edgecolor': 'white',
     'legend.fancybox': True,
 
